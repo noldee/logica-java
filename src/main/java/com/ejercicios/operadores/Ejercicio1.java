@@ -1,9 +1,10 @@
 /*
     
-Hacer un programa que calcule e imprima la suma de tres calificaciones
+
+   Ejercicio 1: Hacer un programa que calcule e imprima la suma de tres calificaciones
 
 */
-package com.ejercicios;
+package com.ejercicios.operadores;
 
 import java.util.Scanner;
 

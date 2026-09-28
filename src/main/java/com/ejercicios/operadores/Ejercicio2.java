@@ -1,10 +1,10 @@
 /*
-    Hacer un programa que calcule e imprima el salario
+    Ejercicio 2: Hacer un programa que calcule e imprima el salario
     semanal de un empleado a partir de sus horas
     semanales trabajadas y de su salario por hora.
 */
 
-package com.ejercicios;
+package com.ejercicios.operadores;
 
 import java.util.Scanner;
 

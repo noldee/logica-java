@@ -1,11 +1,11 @@
 /*
-    Guillermo tiene N dólares. Luis tiene la mitad de lo
+    Ejercicio 3: Guillermo tiene N dólares. Luis tiene la mitad de lo
     que posee Guillermo. Juan tiene la mitad de lo que
     poseeen Luis y Guillermo juntos. Hacer un programa
     que calcule e imprima la cantidad de dinero que tienen
     entre los tres.
 */
-package com.ejercicios;
+package com.ejercicios.operadores;
 
 import java.util.Scanner;
 
