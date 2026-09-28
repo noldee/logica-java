@@ -1,0 +1,25 @@
+# Maven
+
+target/
+
+# Java
+
+*.class
+
+# VS Code
+
+.vscode/
+
+# IDE / sistema
+
+.idea/
+*.iml
+
+# Logs
+
+*.log
+
+# Archivos temporales
+
+*.tmp
+*.temp
