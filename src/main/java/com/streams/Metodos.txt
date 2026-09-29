@@ -1,0 +1,13 @@
+skip 
+limit
+
+peek
+
+dropWhile
+takeWhile
+
+sorted
+
+distinct
+
+flatMap
