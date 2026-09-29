@@ -1,5 +1,6 @@
 package com.streams;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -13,8 +14,11 @@ public class Stream6 {
         try (
                 Stream<Path> fs = Files.list(Paths.get("."));) {
 
-            fs.peek(p -> System.out.println(p.getFileName()));
-
+            long total = fs
+                    .peek(p -> System.out.println(p.getFileName()))
+                    .map(Path::toFile).mapToLong(File::length)
+                    .sum();
+            System.out.println(total);
         }
     }
 }
